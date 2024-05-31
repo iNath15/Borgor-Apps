@@ -62,7 +62,7 @@
  REM Run shell as admin (example) - put here code as you like
 
  :: Download the PowerShell script
- powershell -Command "(New-Object System.Net.WebClient).DownloadFile('https://borgor.cafe/choco_installs.ps1', '%USERPROFILE%\choco_installs.ps1')"
+ powershell -Command "(New-Object System.Net.WebClient).DownloadFile('https://raw.githubusercontent.com/iNath15/Borgor-Apps/main/choco_installs.ps1', '%USERPROFILE%\choco_installs.ps1')"
 
  :: Ask for CPU type (Intel or AMD)
  set /p cpu=Enter your CPU type ([I]ntel, [A]MD, [N]vidia, [S]kip): 
